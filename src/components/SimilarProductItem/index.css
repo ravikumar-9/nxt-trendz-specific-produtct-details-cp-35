@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.similar-product-card {
+  width: 30%;
+  margin: 9px;
+}
+.similar-item-img {
+  width: 100%;
+}
+.price-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-similar {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+.rating-text {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+.ratings-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 34px;
+  width: max-content;
+  justify-content: center;
+  background-color: #3b82f6;
+}
